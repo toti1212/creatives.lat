@@ -1,0 +1,30 @@
+@import "../../styles/helpers/variables.scss";
+@import "../../styles/helpers/mixins.scss";
+
+.footer {
+  height: $footer-height-desktop;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  color: white;
+  background-color: $background;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  @include antialiased;
+
+  @include desktop {
+    padding: 1.5em;
+    height: $footer-height-desktop;
+  }
+
+  @include tablet {
+    padding: 1.5em;
+    height: $footer-height-tablet;
+  }
+
+  p {
+    margin: 0;
+  }
+}

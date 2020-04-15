@@ -1,0 +1,57 @@
+@import "../../styles/helpers/variables.scss";
+@import "../../styles/helpers/mixins.scss";
+
+.airtable_wrapper {
+  position: relative;
+}
+
+.container {
+  padding: $header-height-phone 1em 4em;
+
+  @include desktop {
+    padding: $header-height-desktop 4em 7em;
+  }
+
+  @include tablet {
+    padding: $header-height-desktop 2em 7em;
+  }
+}
+
+.iframe {
+  height: 50vh;
+  background: transparent;
+  border: 1px solid #ccc;
+
+  @include desktop {
+    height: 65vh;
+  }
+
+  @include tablet {
+    height: 65vh;
+  }
+}
+
+.join {
+  margin: 2em 0;
+  text-align: right;
+}
+
+.join_btn {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 3em;
+  width: 100%;
+  font-family: $font;
+
+  &_primary {
+    background: #ea4c89;
+    border-radius: 1em;
+    color: white;
+    font-weight: 600;
+    padding: 0.8em 1em;
+    text-align: center;
+    text-decoration: none;
+    @include antialiased;
+  }
+}

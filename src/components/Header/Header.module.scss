@@ -1,0 +1,26 @@
+@import "../../styles/helpers/variables.scss";
+@import "../../styles/helpers/mixins.scss";
+
+.header {
+  align-items: center;
+  background: $background;
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  height: $header-height-phone;
+  justify-content: space-between;
+  padding: 1em 2em;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  @include desktop {
+    height: $header-height-desktop;
+    padding: 1em 4em;
+  }
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}

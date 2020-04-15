@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+// ------------------------------------------------------------------------
+//
+// ------------------------------------------------------------------------
+@mixin tablet {
+  @media screen and (min-width: #{$tablet-min-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: #{$desktop-min-width}) {
+    @content;
+  }
+}
+
+// ------------------------------------------------------------------------
+// Font helpers
+// ------------------------------------------------------------------------
+@mixin antialiased {
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}

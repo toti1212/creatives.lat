@@ -1,0 +1,53 @@
+@import-normalizer;
+@import "./styles/helpers/variables.scss";
+@import "./styles/helpers/mixins.scss";
+
+body {
+  background-color: #fff;
+  color: $background;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  margin: 0 !important;
+  min-height: 100%;
+  position: relative;
+  @include antialiased;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: $primary;
+}
+
+::selection {
+  color: white;
+  background: $primary;
+}
+a:active,
+a:visited,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
