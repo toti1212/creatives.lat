@@ -3,8 +3,8 @@ import React from "react";
 import ReactGA from "react-ga";
 
 // Google Analytics initializer
-if (process.env.REACT_APP_GTM_KEY) {
-  ReactGA.initialize(process.env.REACT_APP_GTM_KEY);
+if (process.env.REACT_APP_GA_KEY) {
+  ReactGA.initialize(process.env.REACT_APP_GA_KEY);
 }
 
 class AppContainer extends React.Component {
