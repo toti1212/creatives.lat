@@ -1,10 +1,13 @@
 import App from "../components/App.jsx";
 import React from "react";
-import ReactGA from "react-ga";
+import TagManager from "react-gtm-module";
 
-// Google Analytics initializer
-if (process.env.REACT_APP_GA_KEY) {
-  ReactGA.initialize(process.env.REACT_APP_GA_KEY);
+// Google Tag Manager initializer
+if (process.env.REACT_APP_GTM_KEY) {
+  const tagManagerArgs = {
+    gtmId: process.env.REACT_APP_GTM_KEY
+  };
+  TagManager.initialize(tagManagerArgs);
 }
 
 class AppContainer extends React.Component {
