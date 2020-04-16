@@ -9,8 +9,7 @@ const Banner = () => (
     </h1>
     <h3>
       Dada la difícil situación que estamos atravesando, creemos que es un buen
-      momento para crear una comunidad, tender redes, trabajar en conjunto y
-      ayudarnos{" "}
+      momento para crear una comunidad y ayudarnos{" "}
       <span role="img" aria-label="logo">
         💪
       </span>
@@ -21,8 +20,9 @@ const Banner = () => (
         📷🎨
       </span>
       <br />
-      Si sos una persona creativa, dedicada al área audiovisual, publicidad y/o
-      comunicación te invitamos a que te sumes a esta iniciativa{" "}
+      Si te desenvolvés en el área audiovisual, publicidad y/o comunicación te
+      invitamos a que te sumes a esta iniciativa, para que otras personas te
+      conozcan y así fomentar el trabajo a distancia{" "}
       <span role="img" aria-label="emoji sonriente">
         🙂
       </span>
