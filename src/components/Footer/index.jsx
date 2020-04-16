@@ -18,11 +18,11 @@ const Footer = () => (
       </a>{" "}
       and{" "}
       <a
-        href="https://www.instagram.com/criaturaalegre"
+        href="https://www.instagram.com/paumenoni"
         target="_blank"
         rel="noopener noreferrer"
       >
-        criaturaalegre
+        paumenoni
       </a>
     </p>
   </footer>

@@ -1,0 +1,27 @@
+@import "../../styles/helpers/mixins.scss";
+
+.wrapper {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  @include tablet {
+    padding: 1.5em 2em 1.5em;
+  }
+
+  @include desktop {
+    padding: 1.5em 4em 1.5em;
+  }
+
+  h1 {
+    margin: 1em 0;
+    @include tablet {
+      margin: 2em 0;
+    }
+  
+    @include desktop {
+      margin: 2em 0; 
+    }
+  }
+
+  
+}

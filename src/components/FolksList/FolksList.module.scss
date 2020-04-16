@@ -6,20 +6,20 @@
 }
 
 .container {
-  padding: $header-height-phone 1em 4em;
-
-  @include desktop {
-    padding: $header-height-desktop 4em 7em;
-  }
+  padding: 0 1em 4em;
 
   @include tablet {
-    padding: $header-height-desktop 2em 7em;
+    padding: 1em 2em 7em;
+  }
+
+  @include desktop {
+    padding: 1em 4em 7em;
   }
 }
 
 .iframe {
   height: 50vh;
-  background: transparent;
+  background: white;
   border: 1px solid #ccc;
 
   @include desktop {
