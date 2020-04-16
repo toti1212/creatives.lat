@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.838aa508.chunk.css",
-    "main.js": "./static/js/main.47ef68fe.chunk.js",
-    "runtime-main.js": "./static/js/runtime-main.7bccf82d.js",
-    "static/js/2.85a782c8.chunk.js": "./static/js/2.85a782c8.chunk.js",
-    "index.html": "./index.html",
-    "precache-manifest.8e580c6b23c52a3e929386f71d649de7.js": "./precache-manifest.8e580c6b23c52a3e929386f71d649de7.js",
-    "service-worker.js": "./service-worker.js",
-    "static/js/2.85a782c8.chunk.js.LICENSE.txt": "./static/js/2.85a782c8.chunk.js.LICENSE.txt",
-    "static/media/pattern.svg": "./static/media/pattern.98a81038.svg"
+    "main.css": "/creatives.lat/static/css/main.838aa508.chunk.css",
+    "main.js": "/creatives.lat/static/js/main.22a5bbf9.chunk.js",
+    "runtime-main.js": "/creatives.lat/static/js/runtime-main.f8cf0ad6.js",
+    "static/js/2.e7733d11.chunk.js": "/creatives.lat/static/js/2.e7733d11.chunk.js",
+    "index.html": "/creatives.lat/index.html",
+    "precache-manifest.858c730c0d3024a0e3439a549d5567e9.js": "/creatives.lat/precache-manifest.858c730c0d3024a0e3439a549d5567e9.js",
+    "service-worker.js": "/creatives.lat/service-worker.js",
+    "static/js/2.e7733d11.chunk.js.LICENSE.txt": "/creatives.lat/static/js/2.e7733d11.chunk.js.LICENSE.txt",
+    "static/media/pattern.svg": "/creatives.lat/static/media/pattern.98a81038.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7bccf82d.js",
-    "static/js/2.85a782c8.chunk.js",
+    "static/js/runtime-main.f8cf0ad6.js",
+    "static/js/2.e7733d11.chunk.js",
     "static/css/main.838aa508.chunk.css",
-    "static/js/main.47ef68fe.chunk.js"
+    "static/js/main.22a5bbf9.chunk.js"
   ]
 }
