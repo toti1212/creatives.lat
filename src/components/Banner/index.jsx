@@ -8,7 +8,7 @@ const Banner = () => (
       Creatives.lat <span role="img" aria-label="logo"></span>🎨
     </h1>
     <h3>
-      Dada la difícil situación que estamos atravesando, creemos que es un buen
+      ¡Hola! ¡Qué bueno que estés acá! Creemos que este es un buen
       momento para crear una comunidad y ayudarnos{" "}
       <span role="img" aria-label="logo">
         💪
