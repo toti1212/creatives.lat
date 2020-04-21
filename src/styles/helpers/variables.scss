@@ -1,7 +1,12 @@
 // ------------------------------------------------------------------------------------------------------------------
 // Font
 // ------------------------------------------------------------------------------------------------------------------
-$font: "Lato", BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell, “Helvetica Neue”, Arial, sans-serif;
+@font-face {
+  font-family: "Gelion";
+  src: url("../../assets/Gelion-Regular.otf") format(opentype);
+}
+$font: "Gelion", BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  “Helvetica Neue”, Arial, sans-serif;
 
 // ------------------------------------------------------------------------
 // Responsive breakpoints
@@ -12,42 +17,21 @@ $tablet-min-width: 768px;
 // ------------------------------------------------------------------------
 // Colors
 // ------------------------------------------------------------------------
-$background: #1d1e26;
-$primary: #ea4c89;
-
-// ------------------------------------------------------------------------
-// Border radius
-// ------------------------------------------------------------------------
-$border-radius: 3px;
-$border-radius-input: 2px;
-
+$background: #600040;
+$primary: #ff4e59;
 
 // ------------------------------------------------------------------------
 // Sizes
 // ------------------------------------------------------------------------
 $min-width: 860px;
 
-$content-max-width: 960px;
-$content-width-phone: 90%;
-$content-width-tablet: 75%;
-$content-width-desktop: 75%;
-
-// ------------------------------------------------------------------------
-// Nav
-// ------------------------------------------------------------------------
-$nav-max-width: 1280px;
-$nav-height: 48px;
-$nav-item-padding: 12px 24px;
-
-
 $header-height-phone: 4em;
-$header-height-desktop: 4em;
+$header-height-tablet: 5em;
+$header-height-desktop: 6em;
 
 // ------------------------------------------------------------------------
 // Footer (pp)
 // ------------------------------------------------------------------------
-$footer-height-phone: 3em;
-$footer-height-tablet: 4em;
-$footer-height-desktop: 4em;
-
-$footer-width-desktop: $content-max-width;
+$footer-height-phone: 4em;
+$footer-height-tablet: 5em;
+$footer-height-desktop: 6em;

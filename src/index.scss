@@ -3,14 +3,14 @@
 @import "./styles/helpers/mixins.scss";
 
 body {
+  @include antialiased;
   background-color: #fff;
   color: $background;
-  font-family: "Lato", sans-serif;
+  font-family: $font;
   font-size: 1em;
-  margin: 0 !important;
   height: 100%;
+  margin: 0 !important;
   position: relative;
-  @include antialiased;
 }
 
 html {

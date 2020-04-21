@@ -2,7 +2,7 @@
 @import "../../styles/helpers/mixins.scss";
 
 .footer {
-  height: $footer-height-desktop;
+  height: $footer-height-phone;
   margin: 0;
   padding: 1em;
   text-align: center;
@@ -24,6 +24,16 @@
   }
 
   p {
-    margin: 0;
+    margin: 0 auto;
+    line-height: 2em;
+
+    @include desktop {
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+    @include tablet {
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
   }
 }
