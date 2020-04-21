@@ -18,7 +18,7 @@
 }
 
 .iframe {
-  height: 50vh;
+  height: 60vh;
   background: white;
   border: 1px solid #ccc;
 
@@ -32,26 +32,27 @@
 }
 
 .join {
-  margin: 2em 0;
+  margin: 0 0 2em;
   text-align: right;
 }
 
 .join_btn {
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   display: inline-block;
+  font-family: $font;
   font-size: 1em;
   line-height: 3em;
   width: 100%;
-  font-family: $font;
+  @include antialiased;
 
   &_primary {
-    background: #ea4c89;
+    background: $background;
     border-radius: 1em;
     color: white;
     font-weight: 600;
-    padding: 0.8em 1em;
+    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
-    @include antialiased;
   }
 }

@@ -15,10 +15,20 @@
     height: $header-height-desktop;
     padding: 1em 4em;
   }
-}
 
-.title {
-  color: white;
-  font-weight: bold;
-  font-size: 1.2em;
+  @include tablet {
+    height: $header-height-tablet;
+  }
+
+  .logo {
+    height: 2em;
+    margin: 0 auto;
+
+    @include tablet {
+      height: 3em;
+    }
+    @include desktop {
+      height: 3em;
+    }
+  }
 }

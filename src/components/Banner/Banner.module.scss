@@ -1,27 +1,22 @@
 @import "../../styles/helpers/mixins.scss";
+@import "../../styles/helpers/variables.scss";
 
 .wrapper {
   display: block;
-  padding: 1em;
-  text-align: center;
+  padding: 2em 1em 0em;
+  text-align: left;
+
   @include tablet {
-    padding: 1.5em 2em 0em;
+    padding: 3em 2em 0em;
   }
 
   @include desktop {
-    padding: 1.5em 4em 0em;
+    padding: 3em 4em 0em;
   }
 
-  h1 {
-    margin: 1em 0;
-    @include tablet {
-      margin: 2em 0;
-    }
-  
-    @include desktop {
-      margin: 2em 0; 
-    }
+  h3 {
+    @include antialiased;
+    font-weight: 500;
+    line-height: 2em;
   }
-
-  
 }
