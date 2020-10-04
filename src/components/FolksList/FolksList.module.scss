@@ -19,7 +19,7 @@
 
 .iframe {
   height: 60vh;
-  background: white;
+  background:url(../../assets/loader.gif) center center no-repeat;
   border: 1px solid #ccc;
 
   @include desktop {
